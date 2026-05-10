@@ -1,0 +1,24 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# SSH / secrets
+*.pem
+*.key
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Ansible
+*.retry
