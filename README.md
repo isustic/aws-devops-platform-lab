@@ -32,3 +32,13 @@ Security Group
 EC2 Instance
    |
 Nginx Web Server
+
+
+## Current Status
+
+- Provisioned AWS networking with Terraform: VPC, public subnet, internet gateway, route table, route table association, and security group
+- Provisioned an Ubuntu EC2 instance using Terraform
+- Restricted SSH access using a trusted CIDR variable
+- Enabled encrypted gp3 root volume
+- Enforced IMDSv2 on the EC2 instance
+- Verified SSH access to the instance
