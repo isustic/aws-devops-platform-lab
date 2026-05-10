@@ -3,17 +3,17 @@
 
 ## Now
 
-- [ ] Add Terraform AWS provider configuration
-- [ ] Create VPC
-- [ ] Create public subnet
-- [ ] Create internet gateway
-- [ ] Create route table and association
-- [ ] Create security group for SSH and HTTP
-- [ ] Create EC2 instance
-- [ ] Add Terraform outputs
-- [ ] Test `terraform fmt`
-- [ ] Test `terraform validate`
-- [ ] Test `terraform plan`
+- [x] Add Terraform AWS provider configuration
+- [x] Create VPC
+- [x] Create public subnet
+- [x] Create internet gateway
+- [x] Create route table and association
+- [x] Create security group for SSH and HTTP
+- [x] Create EC2 instance
+- [x] Add Terraform outputs
+- [x] Test `terraform fmt`
+- [x] Test `terraform validate`
+- [x] Test `terraform plan`
 
 ## Later
 
